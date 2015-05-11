@@ -6,19 +6,6 @@
 2. AppDelegate 中配置 demo中有
 3. 在调用的支付的 viewcontroller 中 包含 WXPayConfiguration.h 和 "PayRequestHandler.h"，"WXApi.h"
 
-//添加通知观察者
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(wxpayResultNotification:) name:__WXORDER_PAY_NOTIFICATION object:nil];
-}
-
-//注销通知观察者
-- (void)viewWillDisappear:(BOOL)animated
-{
-    [super viewWillDisappear:animated];
-    [[NSNotificationCenter defaultCenter] removeObserver:self name:__WXORDER_PAY_NOTIFICATION object:nil];
-}
 
 
 // 传入参数  订单名称，总价 ,外部订单号。
