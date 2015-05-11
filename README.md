@@ -74,3 +74,8 @@
     UIAlertView *alt =[[UIAlertView alloc] initWithTitle:@"提示" message:msg delegate:self cancelButtonTitle:@"朕知道了" otherButtonTitles: nil];
     [alt show];
 }
+
+                     ===========================================================
+                           微信支付太坑， 此demo仅供参考。如有错误欢迎指正。
+                     ===========================================================
+
