@@ -11,16 +11,16 @@
 
 
 // appID
-#define __WXappID @"wxae0f12fb043950fc"  //lt
+#define __WXappID @""
 
 // appSecret
-#define __WXappSecret @"93273de205aa41a9d4d30434d9f9a39e" //lt
+#define __WXappSecret @""
 
 //商户号，填写商户对应参数
-#define __WXmchID @"1230600601" //lt
+#define __WXmchID @""
 
 //商户API密钥，填写相应参数
-#define __WXpaySignKey @"7b206c79907dad963ca6ac5a8abf1c28" //lt
+#define __WXpaySignKey @""
 
 //支付结果回调页面
 #define __WX_NOTIFY_URL      @"http://wxpay.weixin.qq.com/pub_v2/pay/notify.v2.php"

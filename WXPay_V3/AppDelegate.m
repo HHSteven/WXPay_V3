@@ -17,6 +17,12 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    if (__WXappID.length == 0 ) {
+        UIAlertView *alt = [[UIAlertView alloc] initWithTitle:@"提示" message:@"请配置微信支付参数" delegate:self cancelButtonTitle:@"朕知道了" otherButtonTitles: nil];
+        [alt show];
+        return YES ;
+    }
+    
     [WXApi registerApp:__WXappID withDescription:@"微信测试"];
 
     
