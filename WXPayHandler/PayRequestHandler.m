@@ -7,7 +7,7 @@
 //
 
 #import "PayRequestHandler.h"
-#import "WXConfigues.h"
+#import "WXPayConfiguration.h"
 #import "CommonUtil.h"
 #import "WXPayXMLParser.h"
 @implementation PayRequestHandler

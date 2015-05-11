@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WXApi.h"
+#import "WXPayConfiguration.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@interface AppDelegate : UIResponder <UIApplicationDelegate,WXApiDelegate>
+
 
 @property (strong, nonatomic) UIWindow *window;
 

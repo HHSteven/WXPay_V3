@@ -14,6 +14,15 @@
 		110DE5B41B008A1E006B9B12 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 110DE5B31B008A1E006B9B12 /* Images.xcassets */; };
 		110DE5B71B008A1E006B9B12 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 110DE5B51B008A1E006B9B12 /* LaunchScreen.xib */; };
 		110DE5C31B008A1E006B9B12 /* WXPay_V3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 110DE5C21B008A1E006B9B12 /* WXPay_V3Tests.m */; };
+		110DE5D31B008ABA006B9B12 /* PayRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 110DE5CE1B008ABA006B9B12 /* PayRequestHandler.m */; };
+		110DE5D51B008ABA006B9B12 /* WXPayXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 110DE5D21B008ABA006B9B12 /* WXPayXMLParser.m */; };
+		110DE5D91B008B4C006B9B12 /* CommonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 110DE5D81B008B4C006B9B12 /* CommonUtil.m */; };
+		110DE5DF1B008B8C006B9B12 /* libWeChatSDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 110DE5DB1B008B8B006B9B12 /* libWeChatSDK.a */; };
+		110DE5E01B008B8C006B9B12 /* read_me.txt in Resources */ = {isa = PBXBuildFile; fileRef = 110DE5DC1B008B8B006B9B12 /* read_me.txt */; };
+		110DE5E31B008BF0006B9B12 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 110DE5E21B008BF0006B9B12 /* SystemConfiguration.framework */; };
+		110DE5E51B008C07006B9B12 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 110DE5E41B008C07006B9B12 /* libz.dylib */; };
+		110DE5E71B008C12006B9B12 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 110DE5E61B008C12006B9B12 /* libsqlite3.0.dylib */; };
+		110DE5E91B008C1E006B9B12 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 110DE5E81B008C1E006B9B12 /* libc++.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,21 @@
 		110DE5BC1B008A1E006B9B12 /* WXPay_V3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WXPay_V3Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		110DE5C11B008A1E006B9B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		110DE5C21B008A1E006B9B12 /* WXPay_V3Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WXPay_V3Tests.m; sourceTree = "<group>"; };
+		110DE5CD1B008ABA006B9B12 /* PayRequestHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PayRequestHandler.h; sourceTree = "<group>"; };
+		110DE5CE1B008ABA006B9B12 /* PayRequestHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PayRequestHandler.m; sourceTree = "<group>"; };
+		110DE5D11B008ABA006B9B12 /* WXPayXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXPayXMLParser.h; sourceTree = "<group>"; };
+		110DE5D21B008ABA006B9B12 /* WXPayXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WXPayXMLParser.m; sourceTree = "<group>"; };
+		110DE5D61B008AE7006B9B12 /* WXPayConfiguration.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WXPayConfiguration.h; sourceTree = "<group>"; };
+		110DE5D71B008B4C006B9B12 /* CommonUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtil.h; sourceTree = "<group>"; };
+		110DE5D81B008B4C006B9B12 /* CommonUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtil.m; sourceTree = "<group>"; };
+		110DE5DB1B008B8B006B9B12 /* libWeChatSDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libWeChatSDK.a; sourceTree = "<group>"; };
+		110DE5DC1B008B8B006B9B12 /* read_me.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = read_me.txt; sourceTree = "<group>"; };
+		110DE5DD1B008B8B006B9B12 /* WXApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApi.h; sourceTree = "<group>"; };
+		110DE5DE1B008B8C006B9B12 /* WXApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WXApiObject.h; sourceTree = "<group>"; };
+		110DE5E21B008BF0006B9B12 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		110DE5E41B008C07006B9B12 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		110DE5E61B008C12006B9B12 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		110DE5E81B008C1E006B9B12 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +71,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				110DE5E91B008C1E006B9B12 /* libc++.dylib in Frameworks */,
+				110DE5E71B008C12006B9B12 /* libsqlite3.0.dylib in Frameworks */,
+				110DE5E51B008C07006B9B12 /* libz.dylib in Frameworks */,
+				110DE5E31B008BF0006B9B12 /* SystemConfiguration.framework in Frameworks */,
+				110DE5DF1B008B8C006B9B12 /* libWeChatSDK.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +92,9 @@
 		110DE59A1B008A1E006B9B12 = {
 			isa = PBXGroup;
 			children = (
+				110DE5E11B008B9C006B9B12 /* Frameworks */,
+				110DE5DA1B008B8B006B9B12 /* WeChatSDK_1.5 */,
+				110DE5CC1B008ABA006B9B12 /* WXPayHandler */,
 				110DE5A51B008A1E006B9B12 /* WXPay_V3 */,
 				110DE5BF1B008A1E006B9B12 /* WXPay_V3Tests */,
 				110DE5A41B008A1E006B9B12 /* Products */,
@@ -117,6 +149,42 @@
 				110DE5C11B008A1E006B9B12 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		110DE5CC1B008ABA006B9B12 /* WXPayHandler */ = {
+			isa = PBXGroup;
+			children = (
+				110DE5D61B008AE7006B9B12 /* WXPayConfiguration.h */,
+				110DE5D71B008B4C006B9B12 /* CommonUtil.h */,
+				110DE5D81B008B4C006B9B12 /* CommonUtil.m */,
+				110DE5CD1B008ABA006B9B12 /* PayRequestHandler.h */,
+				110DE5CE1B008ABA006B9B12 /* PayRequestHandler.m */,
+				110DE5D11B008ABA006B9B12 /* WXPayXMLParser.h */,
+				110DE5D21B008ABA006B9B12 /* WXPayXMLParser.m */,
+			);
+			path = WXPayHandler;
+			sourceTree = "<group>";
+		};
+		110DE5DA1B008B8B006B9B12 /* WeChatSDK_1.5 */ = {
+			isa = PBXGroup;
+			children = (
+				110DE5DB1B008B8B006B9B12 /* libWeChatSDK.a */,
+				110DE5DC1B008B8B006B9B12 /* read_me.txt */,
+				110DE5DD1B008B8B006B9B12 /* WXApi.h */,
+				110DE5DE1B008B8C006B9B12 /* WXApiObject.h */,
+			);
+			path = WeChatSDK_1.5;
+			sourceTree = "<group>";
+		};
+		110DE5E11B008B9C006B9B12 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				110DE5E81B008C1E006B9B12 /* libc++.dylib */,
+				110DE5E61B008C12006B9B12 /* libsqlite3.0.dylib */,
+				110DE5E41B008C07006B9B12 /* libz.dylib */,
+				110DE5E21B008BF0006B9B12 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -201,6 +269,7 @@
 			files = (
 				110DE5B21B008A1E006B9B12 /* Main.storyboard in Resources */,
 				110DE5B71B008A1E006B9B12 /* LaunchScreen.xib in Resources */,
+				110DE5E01B008B8C006B9B12 /* read_me.txt in Resources */,
 				110DE5B41B008A1E006B9B12 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -222,6 +291,9 @@
 				110DE5AF1B008A1E006B9B12 /* ViewController.m in Sources */,
 				110DE5AC1B008A1E006B9B12 /* AppDelegate.m in Sources */,
 				110DE5A91B008A1E006B9B12 /* main.m in Sources */,
+				110DE5D31B008ABA006B9B12 /* PayRequestHandler.m in Sources */,
+				110DE5D91B008B4C006B9B12 /* CommonUtil.m in Sources */,
+				110DE5D51B008ABA006B9B12 /* WXPayXMLParser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,8 +421,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WXPay_V3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChatSDK_1.5",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -359,8 +437,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = WXPay_V3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChatSDK_1.5",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
