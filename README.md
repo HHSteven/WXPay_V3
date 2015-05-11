@@ -9,6 +9,7 @@
 
 
 // 传入参数  订单名称，总价 ,外部订单号。
+
     [ph startWXPayWithOrderName:@"支付测试" OrderPrice:@"1" OutorderNo:@"111111" Completion:^(NSDictionary *resultDict, NSString *errorMsg) {
         
         sender.enabled = YES;
