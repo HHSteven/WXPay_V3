@@ -52,7 +52,8 @@
     
     NSString *msg = @"";
     
-    if ([result isEqualToString:__WXORDER_PAY_SUCCESS]) {
+    if ([result isEqualToString:__WXORDER_PAY_SUCCESS]) 
+    {
         //支付成功 。。。
         // 这里 最好还能去服务器请求一下数据 看看是否已经支付成功
 
@@ -60,19 +61,22 @@
         msg = @"支付成功";
         
     }
-    else if ([result isEqualToString:__WXORDER_PAY_FAILED]) {
+    else if ([result isEqualToString:__WXORDER_PAY_FAILED])
+    {
         //支付失败 。。。
         
         msg = @"支付失败";
 
     }
-    else {
+    else 
+    {
         //error;
         msg = @"an error accured";
     }
     
     UIAlertView *alt =[[UIAlertView alloc] initWithTitle:@"提示" message:msg delegate:self cancelButtonTitle:@"朕知道了" otherButtonTitles: nil];
     [alt show];
+    
 }
 
                      ===========================================================
