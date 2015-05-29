@@ -1,7 +1,7 @@
 # WXPay_V3
 微信支付V3版本 demo
 
-1. 导入库文件：SystemConfiguration.framework , liba.dylib, libsqlite3.0.dylib, libc++.dylib(这个不添加要报错)，如果有更新请参照微信支付官方Demo
+1. 导入库文件：SystemConfiguration.framework , libz.dylib, libsqlite3.0.dylib, libc++.dylib(这个不添加要报错)，如果有更新请参照微信支付官方Demo
    在 WXPayConfiguration.h 中添加自己的app 微信支付相关参数。
 2. AppDelegate 中配置 demo中有
 3. 在调用的支付的 viewcontroller 中 包含 WXPayConfiguration.h 和 "PayRequestHandler.h"，"WXApi.h"
